@@ -1,0 +1,56 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Oo]ut/
+[Dd]ll/
+[Ee]xe/
+
+# .NET
+*.user
+*.userosscache
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.scc
+*.pfx
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node / UI
+node_modules/
+pulse-monitor-ui/node_modules/
+pulse-monitor-ui/dist/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.eslintcache
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.sw?
+.DS_Store
+
+# User secrets (uncomment if you use local secrets)
+# appsettings.Development.json
+# secrets.json
